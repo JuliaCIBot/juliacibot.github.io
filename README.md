@@ -1,5 +1,4 @@
-<head><title>JuliaCIBot</title></head>
-## JuliaCIBot
+# JuliaCIBot
 
 JuliaCIBot runs tests on pull requests to [METADATA.jl](https://github.com/JuliaLang/METADATA.jl). Tests are run for the tagged version of the package and its previous version if any. The tests are run for the current release version of julia and the previous release. Packages that depend on the tagged package are also tested. Although, we can only test a limited number of such "reverse dependencies" due to the time it takes to test all packages.
 
